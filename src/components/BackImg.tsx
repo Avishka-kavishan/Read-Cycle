@@ -1,13 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import Welcome from './src/screen/Welcome'
 
-const App = () => {
+const BackImg = () => {
   return (
     <View>
-      <Welcome/>
+      <Text>BackImg</Text>
     </View>
   )
 }
 
-export default App
+export default BackImg

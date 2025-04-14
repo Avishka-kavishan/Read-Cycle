@@ -38,9 +38,9 @@ const styles= StyleSheet.create({
         color:'black',
         alignItems:'center',
         fontSize: 30,
-        fontWeight: 'bold',
         marginTop: 20,
-        marginBottom:50
+        marginBottom:50,
+        fontFamily:"LobsterTwo-Bold"
     },
     logo:{
         marginTop: 100,

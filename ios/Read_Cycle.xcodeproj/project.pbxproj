@@ -11,6 +11,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		85061234125E47E4AE027E23 /* LobsterTwo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 384F75E0B728457E8EE8C8A1 /* LobsterTwo-Bold.ttf */; };
+		0343B914FC1546B998D84F53 /* LobsterTwo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 750FA048A43246F080F95E5D /* LobsterTwo-BoldItalic.ttf */; };
+		D8200D88E13B4FC7A89C7048 /* LobsterTwo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9411CB55F0B846F88400C93D /* LobsterTwo-Italic.ttf */; };
+		090EB85A4499473DB7D4F6B4 /* LobsterTwo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 360AAEDFF1FF4874A1FFBBCB /* LobsterTwo-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Read_Cycle/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Read_Cycle/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		384F75E0B728457E8EE8C8A1 /* LobsterTwo-Bold.ttf */ = {isa = PBXFileReference; name = "LobsterTwo-Bold.ttf"; path = "../src/assets/fonts/LobsterTwo-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		750FA048A43246F080F95E5D /* LobsterTwo-BoldItalic.ttf */ = {isa = PBXFileReference; name = "LobsterTwo-BoldItalic.ttf"; path = "../src/assets/fonts/LobsterTwo-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9411CB55F0B846F88400C93D /* LobsterTwo-Italic.ttf */ = {isa = PBXFileReference; name = "LobsterTwo-Italic.ttf"; path = "../src/assets/fonts/LobsterTwo-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		360AAEDFF1FF4874A1FFBBCB /* LobsterTwo-Regular.ttf */ = {isa = PBXFileReference; name = "LobsterTwo-Regular.ttf"; path = "../src/assets/fonts/LobsterTwo-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				C7E0D51A3D6142409096AD79 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,6 +124,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		C7E0D51A3D6142409096AD79 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				384F75E0B728457E8EE8C8A1 /* LobsterTwo-Bold.ttf */,
+				750FA048A43246F080F95E5D /* LobsterTwo-BoldItalic.ttf */,
+				9411CB55F0B846F88400C93D /* LobsterTwo-Italic.ttf */,
+				360AAEDFF1FF4874A1FFBBCB /* LobsterTwo-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -185,6 +206,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				85061234125E47E4AE027E23 /* LobsterTwo-Bold.ttf in Resources */,
+				0343B914FC1546B998D84F53 /* LobsterTwo-BoldItalic.ttf in Resources */,
+				D8200D88E13B4FC7A89C7048 /* LobsterTwo-Italic.ttf in Resources */,
+				090EB85A4499473DB7D4F6B4 /* LobsterTwo-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
